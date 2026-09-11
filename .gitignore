@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Local build dependencies (not committed by upstream)
+libs/
+backup_*/
