@@ -31,11 +31,11 @@ MSBuild.exe DuplicateFinder.csproj -p:Configuration=Release -restore:false -v:m 
 - **Hide / unhide** any duplicate straight from the results list — the _Hidden_ checkbox is now clickable and writes directly to the Playnite database.
 - **Remove** a game from your library from within the plugin, guarded by a confirmation dialogue (the action is permanent).
 - **Installed** column showing each duplicates' install state, plus an 'Only installed games' filter to find games accidentally installed on several platforms (issue #7).
-- **Sortable results** — click the Name, Library, Installed or Hidden column headers to sort ascending / descending (issue #6).
+- **Sortable results** — click any column header to sort ascending / descending (issue #6).
 - **Interactable results** — right-click a game for a context menu (show in library, edit, hide/unhide, keep this one & hide the rest, remove); double-clicking a row shows the game in your library view (issue #3).
 - **Progress dialog** with a progress bar while searching, so the UI no longer freezes on big libraries with the similarity check enabled (issue #4).
 - Tooltip and README explanation of how 'Tolerance' works (issue #5).
-- **Platforms, Source, Playtime & Last played columns** — see at a glance which platform each duplicate is on and which copy you actually play.
+- **Platforms, Source, Playtime, Last played & Install location columns** — see at a glance which platform each duplicate is on and which copy you actually play.
 - **Grouped results** — matches are clustered into groups (transitively, so fuzzy chains belong together), with a checkbox to toggle grouping on/off.
 - **Filter box** — live text filter over the results list.
 - **Multi-select & bulk actions** — Ctrl/Shift-click several rows, then hide, unhide or remove them all at once (deletion asks once and lists every game it will remove).
